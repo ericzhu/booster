@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>booster</groupId>
+		<artifactId>booster_parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../booster_parent</relativePath>
+	</parent>
+	
+	<artifactId>booster_bootstrap</artifactId>
+	<packaging>pom</packaging>
+	
+	<modules>
+		<module>booster_bootstrap_maven</module>
+		<module>booster_bootstrap_autoconfiguration</module>
+	</modules>
+</project>
