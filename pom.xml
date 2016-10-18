@@ -8,5 +8,6 @@
 	<modules>
 		<module>booster-parent</module>
 		<module>booster_bootstrap</module>
+		<module>booster_bootstrap_jetty</module>
 	</modules>
 </project>

@@ -1,0 +1,17 @@
+There is no magic
+
+1. There is a list of file they consider to be configuration files.
+   Spring boot looks at the /META-INF/spring.factories file for the list of configuration classes.
+   Each configuration classes is annotated with @Conditional annotation. This annotation defines when
+   the configuration applies.
+   
+   Some of the most conditions defined by the @Conditional
+   1. if certain class is on the classpath
+   2. if the user hasn't declared a specific bean.
+   3. if the specific property is set
+   
+2. When it should apply these.
+
+- @EnableAutoConfiguration load /META-INF/spring.factories. It contains a list of 
+- spring.factories declares @Configuration classes
+- Each @Configuration is @Conditional
